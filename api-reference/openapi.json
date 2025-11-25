@@ -11,13 +11,13 @@
         }
     ],
     "paths": {
-        "/mcp/advertisers/fromcurl": {
+        "/mcp/advertisers/me": {
             "get": {
                 "tags": [
                     "Advertiser"
                 ],
                 "description": "Fetch the portfolio of Advertisers for this account",
-                "operationId": "IAmAPlumber",
+                "operationId": "GetPortfolio",
                 "responses": {
                     "200": {
                         "description": "Success",
